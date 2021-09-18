@@ -87,10 +87,15 @@ body .navbar .navbar-collapse {
           justify-content: flex-end;
 }
 
+body .navbar .navbar-nav li {
+  padding: 0 15px;
+}
+
 body .navbar .navbar-nav li a {
   font-size: 14px;
   color: #000 !important;
-  font-weight: 400;
+  font-weight: bold;
+  padding: 5px 0;
 }
 
 body .navbar .navbar-nav li:last-child a {
