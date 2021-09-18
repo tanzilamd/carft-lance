@@ -12,6 +12,11 @@
           box-sizing: border-box;
 }
 
+.close {
+  background-color: transparent;
+  border: none;
+}
+
 body {
   padding: 0;
   margin: 0;
