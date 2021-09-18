@@ -179,4 +179,83 @@ body #cover .cover div button {
 body #cover .cover span {
   font-size: 14px;
 }
+
+body #sign_up {
+  background-color: #F9F9F9;
+  text-align: center;
+  padding: 60px 0;
+}
+
+body #sign_up h2 {
+  font-weight: 300;
+}
+
+body #sign_up .signup_process {
+  background-color: #fff;
+  width: 30%;
+  margin: 30px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 50px 100px;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+body #sign_up .signup_process .signup_process_left img {
+  width: 100%;
+}
+
+body #sign_up .signup_process .signup_process_right .up_down {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body #sign_up .signup_process .signup_process_right .up_down img {
+  width: 20px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+
+body #sign_up .signup_process .signup_process_right h3 {
+  color: #5db442;
+  font-weight: 300;
+}
+
+body #sign_up .signup_process .signup_process_right p {
+  margin-left: 20px;
+}
+
+body #sign_up .process_bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body #sign_up .process_bottom .process_item {
+  padding: 0 25px;
+}
+
+body #sign_up .process_bottom .process_item:first-child div {
+  background-color: #5db442;
+  padding: 5px;
+}
+
+body #sign_up .process_bottom .process_item div {
+  display: inline-block;
+  padding: 5px;
+}
 /*# sourceMappingURL=style.css.map */

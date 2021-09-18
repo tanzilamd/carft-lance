@@ -6,6 +6,7 @@
     src: url(../fonts/basic_sans_serif_7.ttf);
 }
 
+
 * {
     padding: 0;
     margin: 0;
@@ -150,6 +151,79 @@ body {
             }
             span {
                 font-size: 14px;
+            }
+        }
+    }
+
+    #sign_up {
+        background-color: #F9F9F9;
+        text-align: center;
+        padding: 60px 0;
+
+        h2 {
+            font-weight: 300;
+        }
+        .signup_process {
+            background-color: #fff;
+            width: 30%;
+            margin: 30px auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding: 50px 100px;
+            box-sizing: content-box;
+
+            .signup_process_left {
+                img {
+                    width: 100%;
+                }
+            }
+            .signup_process_right {
+                .up_down {
+                    display: flex;
+                    flex-direction: column;
+                    img {
+                        width: 20px;
+                        margin-bottom: 5px;
+                        margin-left: 20px;
+                        &:first-child {
+                            
+                        }
+                    }
+                }
+                h3 {
+                    color: #5db442;
+                    font-weight: 300;
+                }
+                p {
+                    margin-left: 20px;
+                }
+            }
+        }
+        .process_bottom {
+            display: flex;
+            justify-content: center;
+            .process_item {
+                padding: 0 25px;
+                &:first-child {
+                    div {
+                        background-color: #5db442;
+                        padding: 5px;
+                    }
+                    
+                }
+                div {
+                    display: inline-block;
+                    padding: 5px;
+                    
+                    img {
+
+                    }
+                }
+                
+                p {
+                    
+                }
             }
         }
     }
