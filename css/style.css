@@ -321,4 +321,81 @@ body #pricing .pricing_badge div p:first-child {
   background-color: #5db442;
   color: #fff;
 }
+
+body #pricing .pricing_card {
+  border: 1px solid #ececec;
+  text-align: center;
+  padding: 30px;
+  margin: 20px 30px 0;
+  position: relative;
+}
+
+body #pricing .pricing_card::after {
+  content: '';
+  height: 3px;
+  width: 80px;
+  background-color: #cccccc;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+body #pricing .pricing_card h6 {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+body #pricing .pricing_card .pricing_price {
+  width: 90px;
+  height: 90px;
+  margin: 25px auto;
+  -webkit-box-shadow: 0px 0px 20px #ececec;
+          box-shadow: 0px 0px 20px #ececec;
+  padding: 17px 0;
+  border-radius: 45px;
+  background-color: #ffffff;
+  border: 1px solid #5db442;
+  position: relative;
+}
+
+body #pricing .pricing_card .pricing_price h5 {
+  font-size: 23px;
+  font-weight: 500;
+  color: #333333;
+}
+
+body #pricing .pricing_card .pricing_price p {
+  font-size: 12px;
+  color: #777777;
+  font-weight: 300;
+  font-style: italic;
+}
+
+body #pricing .pricing_card ul {
+  padding-left: 0;
+}
+
+body #pricing .pricing_card ul li {
+  font-size: 14px;
+  list-style: none;
+  letter-spacing: 1px;
+  line-height: 30px;
+  font-weight: 500;
+}
+
+body #pricing .pricing_card button {
+  font-weight: 500;
+  font-size: 14px;
+  padding: 8px 35px;
+  border: 1px solid #ececec;
+  background-color: transparent;
+  border-radius: 18px;
+}
+
+body #pricing .pricing_card button:hover {
+  background-color: #5db442;
+  color: white;
+}
 /*# sourceMappingURL=style.css.map */

@@ -274,5 +274,91 @@ body {
                 }
             }
         }
+        .pricing_card {
+            border: 1px solid #ececec;
+            text-align: center;
+            padding: 30px;
+            margin: 20px 30px 0;
+            position: relative;
+
+            &::after {
+                content: '';
+                height: 3px;
+                width: 80px;
+                background-color: #cccccc;
+                position: absolute;
+                top: 0;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+            h6 {
+                font-size: 14px;
+                font-weight: 500;
+                
+            }
+
+            .pricing_price {
+
+                width: 90px;
+                height: 90px;
+                margin: 25px auto;
+                box-shadow: 0px 0px 20px #ececec;
+                padding: 17px 0;
+                border-radius: 45px;
+                background-color: #ffffff;
+                border: 1px solid #5db442;
+                position: relative;
+
+                // &::after {
+                //     content: "";
+                //     height: 1px;
+                //     width: 100%;
+                //     background-color: #cccccc;
+                //     top: 0;
+                //     left: 0;
+                //     z-index: ;
+                //     position: absolute;
+
+                // }
+                h5 {
+                    font-size: 23px;
+                    font-weight: 500;
+                    color: #333333;
+
+                }
+                p {
+                    font-size: 12px;
+                    color: #777777;
+                    font-weight: 300;
+                    font-style: italic;
+                }
+
+            }
+
+            ul {
+                padding-left: 0;
+                li {
+                    font-size: 14px;
+                    list-style: none;
+                    letter-spacing: 1px;
+                    line-height: 30px;
+                    font-weight: 500;
+
+                }
+            }
+            button {
+                font-weight: 500;
+                font-size: 14px;
+                padding: 8px 35px;
+                border: 1px solid #ececec;
+                background-color: transparent;
+                border-radius: 18px;
+
+                &:hover {
+                    background-color: #5db442;
+                    color: white;
+                }
+            }
+        }
     }
 }
