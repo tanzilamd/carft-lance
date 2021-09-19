@@ -378,6 +378,7 @@ body {
         .title {
             max-width: 600px;
             margin: 0 auto;
+            margin-bottom: 10px;
         }
         .data_card {
             background-color: #fff;
@@ -386,9 +387,11 @@ body {
             margin-top: 30px;
             box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
             transition: background-color ease .4s;
+            cursor: pointer;
 
             &:hover {
                 background-color: #5db442;
+                box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
                 i {
                     color:white;
                 }

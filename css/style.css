@@ -423,6 +423,7 @@ body #data {
 body #data .title {
   max-width: 600px;
   margin: 0 auto;
+  margin-bottom: 10px;
 }
 
 body #data .data_card {
@@ -434,10 +435,13 @@ body #data .data_card {
           box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   -webkit-transition: background-color ease .4s;
   transition: background-color ease .4s;
+  cursor: pointer;
 }
 
 body #data .data_card:hover {
   background-color: #5db442;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+          box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
 
 body #data .data_card:hover i {
