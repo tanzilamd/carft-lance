@@ -5,7 +5,10 @@
     font-family: 'Basic';
     src: url(../fonts/basic_sans_serif_7.ttf);
 }
-
+.title {
+    font-weight: 300;
+    text-align: center;
+}
 
 * {
     padding: 0;
@@ -366,6 +369,64 @@ body {
                     background-color: #5db442;
                     color: white;
                 }
+            }
+        }
+    }
+    #data {
+        padding: 60px 0;
+        background-color: #F8F8F8;
+        .title {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .data_card {
+            background-color: #fff;
+            padding: 20px;
+            text-align: center;
+            margin-top: 30px;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+            transition: background-color ease .4s;
+
+            &:hover {
+                background-color: #5db442;
+                i {
+                    color:white;
+                }
+                h4 {
+                    color:white;
+                }
+                p {
+                    color:white;
+                }
+            }
+            i {
+                font-size: 60px;
+                line-height: 1.5;
+                margin-bottom: 20px;
+                color: #5db442;
+                position: relative;
+
+                &::after {
+                    content: "";
+                    background-color: #ececec;
+                    height: 2px;
+                    width: 90px;
+                    position: absolute;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    bottom: -5%;
+                }
+            }
+            h4 {
+                color: #333;
+                font-weight: 400;
+                text-transform: uppercase;
+                font-size: 18px;
+                line-height: 2;
+            }
+            p {
+                font-size: 14px;
+                color: #777;
             }
         }
     }

@@ -4,6 +4,11 @@
   src: url(../fonts/basic_sans_serif_7.ttf);
 }
 
+.title {
+  font-weight: 300;
+  text-align: center;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -408,5 +413,75 @@ body #pricing .pricing_card button {
 body #pricing .pricing_card button:hover {
   background-color: #5db442;
   color: white;
+}
+
+body #data {
+  padding: 60px 0;
+  background-color: #F8F8F8;
+}
+
+body #data .title {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+body #data .data_card {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin-top: 30px;
+  -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+          box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  -webkit-transition: background-color ease .4s;
+  transition: background-color ease .4s;
+}
+
+body #data .data_card:hover {
+  background-color: #5db442;
+}
+
+body #data .data_card:hover i {
+  color: white;
+}
+
+body #data .data_card:hover h4 {
+  color: white;
+}
+
+body #data .data_card:hover p {
+  color: white;
+}
+
+body #data .data_card i {
+  font-size: 60px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  color: #5db442;
+  position: relative;
+}
+
+body #data .data_card i::after {
+  content: "";
+  background-color: #ececec;
+  height: 2px;
+  width: 90px;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: -5%;
+}
+
+body #data .data_card h4 {
+  color: #333;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 2;
+}
+
+body #data .data_card p {
+  font-size: 14px;
+  color: #777;
 }
 /*# sourceMappingURL=style.css.map */
