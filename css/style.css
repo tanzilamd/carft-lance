@@ -328,6 +328,17 @@ body #pricing .pricing_card {
   padding: 30px;
   margin: 20px 30px 0;
   position: relative;
+  -webkit-transition: all linear .3s;
+  transition: all linear .3s;
+}
+
+body #pricing .pricing_card:hover {
+  -webkit-box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+          box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+body #pricing .pricing_card:hover::after {
+  background-color: #5db442;
 }
 
 body #pricing .pricing_card::after {
@@ -351,8 +362,8 @@ body #pricing .pricing_card .pricing_price {
   width: 90px;
   height: 90px;
   margin: 25px auto;
-  -webkit-box-shadow: 0px 0px 20px #ececec;
-          box-shadow: 0px 0px 20px #ececec;
+  -webkit-box-shadow: #ececec 0px 1px 4px, #ececec 0px 0px 0px 3px;
+          box-shadow: #ececec 0px 1px 4px, #ececec 0px 0px 0px 3px;
   padding: 17px 0;
   border-radius: 45px;
   background-color: #ffffff;
