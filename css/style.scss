@@ -433,4 +433,77 @@ body {
             }
         }
     }
+    footer {
+        background-color: #efefef;
+
+        .footer_top {
+            padding: 50px 0;
+            border-bottom: 1px solid #e1e2e3;
+
+            h5 {
+                font-size: 18px;
+                margin-bottom: 20px;
+            }
+            p {
+                color: #333;
+                font-size: 15px;
+            }
+            .footer-1 {
+                margin-top: 30px;
+                div {
+                    display: flex;
+                    width: 100%;
+                    input {
+                        background-color: white;
+                        border: none;
+                        padding: 6px 15px;
+                        outline: none;
+                        width: 80%;
+                    }
+                    button {
+                        background-color: #5db442;
+                        border: none;
+                        color: white;
+                        padding: 8px 18px;
+                        width: 20%;
+                    }
+                }
+            }
+            .footer-2 {
+                margin-top: 30px;
+            }
+            .footer-3 {
+                margin-top: 30px;
+            }
+            .footer-4 {
+                margin-top: 30px;
+            }
+            .footer-2,.footer-3,.footer-4 {
+                p {
+                    letter-spacing: 1px;
+                    font-size: 14px;
+                }
+            }
+        }
+        .footer_bottom {
+            padding: 20px 0;
+            .bottom-left {
+                p {
+                    font-family: 'Basic' !important;
+                    font-size: 24px !important;
+                    color: #636666 !important;
+                    font-weight: 300 !important;
+                }
+            }
+            .bottom-right {
+                text-align: right;
+                p {
+                    color: #777;
+                    font-size: 13px;
+                    line-height: 1.3;
+                }
+            }
+        }
+    }
+    
 }
