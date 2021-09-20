@@ -177,8 +177,9 @@ body {
             box-sizing: content-box;
 
             .signup_process_left {
-                img {
-                    width: 100%;
+                i {
+                    font-size: 70px;
+                    color:#5db442;
                 }
             }
             .signup_process_right {
@@ -208,24 +209,29 @@ body {
             justify-content: center;
             .process_item {
                 padding: 0 25px;
-                &:first-child {
-                    div {
-                        background-color: #5db442;
-                        padding: 5px;
-                    }
-                    
-                }
                 div {
-                    display: inline-block;
-                    padding: 5px;
-                    
-                    img {
-
+                    margin-bottom: 10px;
+                    i {
+                        display: inline-block;
+                        padding: 15px;
+                        font-size: 18px;
+                        border-radius: 50%;
+                        border: 1px solid #5db442;
+                        background-color: white;
+                        color: #5db442;
+                        transition: all ease .3s;
+                    }
+                    &:hover {
+                        i {
+                            border: 1px solid white;
+                            background-color: #5db442;
+                            color: white;
+                        }
                     }
                 }
                 
                 p {
-                    
+                    font-size: 14px;
                 }
             }
         }
