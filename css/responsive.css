@@ -1,6 +1,42 @@
 @media screen and (max-width: 575.98px) {
+  .header .header-left {
+    text-align: center;
+  }
+  .header .header-right {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+  .signup_process {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 0 !important;
+    width: 90% !important;
+  }
+  .signup_process .signup_process_right {
+    width: 90%;
+  }
   .pricing_card {
     margin: 20px 30px !important;
+  }
+  .footer_bottom {
+    text-align: center;
+  }
+  .footer_bottom .bottom-right p {
+    text-align: center;
+  }
+  .input-email {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 14px;
+  }
+  .pricing_badge div p {
+    font-size: 14px;
   }
 }
 /*# sourceMappingURL=responsive.css.map */

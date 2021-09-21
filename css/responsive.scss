@@ -1,7 +1,44 @@
 // `sm` applies to x-small devices (portrait phones, less than 576px)
 @media screen and (max-width: 575.98px) {
+
+    .header {
+        .header-left {
+            text-align: center;
+        }
+        .header-right {
+            justify-content: center !important;
+        }
+    }
+    .signup_process {
+        flex-direction: column;
+        box-sizing: border-box;
+        padding: 0 !important;
+        width: 90% !important;
+        .signup_process_right {
+            width: 90%;
+        }
+    }
     .pricing_card {
         margin: 20px 30px !important;
+    }
+    .footer_bottom {
+        text-align: center;
+        .bottom-right {
+            p {
+                text-align: center;
+            }
+        }
+    }
+    .input-email {
+        display: flex;
+        font-size: 14px;
+    }
+    .pricing_badge {
+        div {
+            p {
+                font-size: 14px;
+            }
+        }
     }
 }
 
