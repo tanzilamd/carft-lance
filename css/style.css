@@ -120,6 +120,25 @@ body .navbar .navbar-nav li a {
   color: #000 !important;
   font-weight: bold;
   padding: 5px 0;
+  position: relative;
+}
+
+body .navbar .navbar-nav li a::after {
+  content: "";
+  height: 2px;
+  width: 0;
+  -webkit-transition: width ease .3s;
+  transition: width ease .3s;
+  background-color: #5db442;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: 0;
+}
+
+body .navbar .navbar-nav li a:hover::after {
+  width: 60%;
 }
 
 body .navbar .navbar-nav li:last-child a {
@@ -128,6 +147,10 @@ body .navbar .navbar-nav li:last-child a {
   border: 1px solid #5db442;
   border-radius: 30px;
   padding: 5px 25px;
+}
+
+body .navbar .navbar-nav li:last-child a::after {
+  display: none;
 }
 
 body #cover {

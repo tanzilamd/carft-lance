@@ -90,11 +90,29 @@ body {
         .navbar-nav {
             li {
                 padding: 0 15px;
+
                 a {
                     font-size: 14px;
                     color: #000 !important;
                     font-weight: bold;
                     padding: 5px 0;
+                    position: relative;
+
+                    &::after {
+                        content: "";
+                        height: 2px;
+                        width: 0;
+                        transition: width ease .3s;
+                        background-color: #5db442;
+                        position: absolute;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        bottom: 0;
+
+                    }
+                    &:hover::after {
+                        width: 60%;
+                    }
                 }
 
                 &:last-child {
@@ -104,6 +122,10 @@ body {
                         border: 1px solid #5db442;;
                         border-radius: 30px;
                         padding: 5px 25px;
+                        
+                        &::after {
+                            display: none;
+                        }
                     }
                 }
             }
